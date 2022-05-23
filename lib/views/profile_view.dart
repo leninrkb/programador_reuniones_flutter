@@ -35,13 +35,16 @@ class _ProfileViewState extends State<ProfileView> {
                   borderRadius: BorderRadius.circular(50.0),
                   child: Image.network(
                     "https://flutter.github.io/assets-for-api-docs/assets/widgets/owl.jpg",
-                    height: 200,
+                    height: 150,
                   ),
                 ),
                 const SizedBox(height: 20),
                 TextFormField(
                   decoration: const InputDecoration(
-                      labelText: "Usuario", border: OutlineInputBorder()),
+                    labelText: "Usuario",
+                    border: OutlineInputBorder(),
+                    hintText: "NobMaster69",
+                  ),
                 ),
                 const SizedBox(height: 20),
                 TextFormField(
